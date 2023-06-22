@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+body{
+
+    background-color: #eeebe6;
+  
+   
+}
+
+
+/* Progress Bar */
+
+.progress-bar
+{
+    height: 2px;
+    background-color: red;
+    animation-name: progress;
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+
+}
+
+@keyframes progress {
+
+    0%
+    {
+        width: 0%;
+    }
+
+    25%
+    {
+        width: 25%;
+    }
+    
+    50%
+    {
+        width: 50%;
+    }
+
+    75%
+    {
+        width: 75%;
+    }
+    100%
+    {
+        width: 100%;
+    }
+
+}
+
+
+
+.header
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 20px 10px 20px;
+}
+
+.header img[alt="sign"]
+{
+    height: 100px;
+    width: 200px;
+    margin: 5px 0px;
+}
+
+.header ul
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px 50px;
+}
+
+.header a
+{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+.header li
+{
+    list-style-type: none; 
+    margin-right: 50px; 
+}
+.header a:hover 
+{
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight:600;
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+.search
+{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+
+/* main section */
+#contactSec
+{
+      display: flex;
+     height: 500px;
+     width: 100%;
+      align-items: center;
+      justify-content: space-evenly;
+    
+}
+
+#messageSection
+{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+   background-color: #d950bb;
+   
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+input
+{
+    border: 1px solid black;
+}
+
+label
+{
+    text-decoration: underline;
+}
+
+#sendMessage
+{
+    height: 32px;
+    width: 150px;
+    font-size: 17px;
+    background: #d43939; 
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+input
+{
+    height: 30px;
+    width: 300px;
+}
